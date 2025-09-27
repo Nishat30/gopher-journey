@@ -11,7 +11,7 @@ func main() {
 	fmt.Printf("type of fruitlist is %T\n",fruitList)
 	fruitList = append(fruitList, "mango","banana")
 	fmt.Println(fruitList)
-	fruitList=append(fruitList[1:])
+	// fruitList=append(fruitList[1:])
 	fmt.Println(fruitList)
 
 	highScores := make([]int,4)
