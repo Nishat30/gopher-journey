@@ -11,6 +11,7 @@ This repo contains examples, practice programs, and experiments as I explore the
 - 🔹 Concurrency (goroutines, channels, sync)
 - 🔹 Error handling
 - 🔹 Mini projects & experiments
+- 🔹 LeetCode Questions 
 
 ---
 
@@ -22,4 +23,5 @@ git clone https://github.com/your-username/golang-playground.git
 cd golang-playground
 go run filename.go
 ```
+
 
