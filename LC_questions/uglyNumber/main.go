@@ -2,25 +2,23 @@ package main
 
 import "fmt"
 
-func isUgly(n int) bool {
-	if n <= 0 {
+func isUgly(m int) bool {
+	if m <= 0 {
 		return false
 	}
-	if n == 1 {
+	if m == 1 {
 		return true
 	}
-	for n%2 == 0 {
-		n /= 2
+	for m%2 == 0 {
+		m /= 2
 	}
-	for n%3 == 0 {
-		n /= 3
+	for m%3 == 0 {
+		m /= 3
 	}
-	for n%5 == 0 {
-		n /= 5
+	for m%5 == 0 {
+		m /= 5
 	}
-	if n == 1 {
-		return true
-	}
+	return m==1
 	return false
 }
 func main() {
