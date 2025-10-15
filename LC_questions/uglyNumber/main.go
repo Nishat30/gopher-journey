@@ -19,7 +19,6 @@ func isUgly(m int) bool {
 		m /= 5
 	}
 	return m==1
-	return false
 }
 func main() {
 	fmt.Println("solved leetcode 263 ugly number")
